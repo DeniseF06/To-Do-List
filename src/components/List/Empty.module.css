@@ -1,0 +1,31 @@
+.empty{
+    width: 46rem;
+    margin: auto;
+    gap: 4rem;
+    align-items:center; 
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.emptyTask{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    color: var(--gray-300);
+}
+.empty img{
+    margin: 4rem auto 1rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.empty strong{
+    display: flex;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+.empty span{
+    display: flex;
+    justify-content: center;
+}
